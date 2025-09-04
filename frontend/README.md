@@ -1,12 +1,33 @@
-# React + Vite
+### 🛠️ Usage
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#### Search for Books
+- Type a book title, author name, or keywords in the search bar.
+- Results update automatically with a debounce delay of 400ms.
 
-Currently, two official plugins are available:
+#### Book Card Details
+Each book card displays:
+- **Book cover** (if available)
+- **Title**
+- **Author(s)**
+- **First published year**
+- **Link to Open Library page**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#### Pagination
+- Use the **Previous** and **Next** buttons at the bottom of the results to navigate pages.
+- The current page and total pages are displayed above the results.
 
-## Expanding the ESLint configuration
+#### Add or Remove Favorites
+- Click the ❤️ icon on any book card to add or remove it from favorites.
+- The heart icon fills when the book is favorited.
+- Favorite books are stored in memory for the current session.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+#### View Favorites
+- Click the **Favorites ❤️** button at the top to view all favorited books.
+- This opens a separate **Favorites page**.
+- You can remove books from favorites on this page as well.
+
+#### Back to Search
+- On the Favorites page, click the **← Back to Search** button to return to the search results.
+
+#### Open Book Details
+- Click **Open** on any book card to visit the book's Open Library page in a new tab.
