@@ -28,3 +28,8 @@ html, body, #root {
   border-radius: 1rem;
   padding: 1.5rem;
 }
+
+body.dark {
+    background-color: #111827; /* Tailwind gray-900 fallback */
+  color: white;
+}
