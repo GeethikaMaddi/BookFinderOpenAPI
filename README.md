@@ -19,7 +19,7 @@ A responsive **Book Finder** web application built with **React, Vite, and Tailw
 ---
 
 ## 🖥️ Demo
-<img width="1802" height="842" alt="image" src="https://github.com/user-attachments/assets/39c57345-5a6a-45bb-93a1-5a74b08e9877" />
+<img width="1858" height="824" alt="image" src="https://github.com/user-attachments/assets/1c82c7b1-5abe-442c-9e95-5509938dcc44" />
 
 ## 📦 Project Structure
 <img width="571" height="616" alt="image" src="https://github.com/user-attachments/assets/b38d4a6b-bb71-4fb1-be80-d73f9e08a5ce" />
@@ -38,13 +38,37 @@ https://openlibrary.org/search.json
 
 ### 🛠️ Usage
 
-Search: Type a book title, author, or keywords in the search bar. Results update automatically.
 
-Add to Favorites: Click the ❤️ icon on a book card to add/remove it from favorites.
+### 1. Search Books
+- Type a book title, author, or keywords in the search bar.
+- Results update automatically as you type.
 
-View Favorites: Click the Favorites button at the top to go to your Favorites page.
+### 2. Add to Favorites
+- Click the ❤️ icon on a book card to add it to your favorites.
+- Clicking again removes the book from favorites.
 
-Back to Search: On the Favorites page, click ← Back to Search to return.
+### 3. View Favorites
+- Click the **Favorites** button at the top to view all your saved books.
+
+### 4. Back to Search
+- On the Favorites page, click **← Back to Search** to return to the main search page.
+
+### 5. Clear History
+- Option to clear recently searched books.
+- Removes all previous search queries from history.
+
+### 6. Recently Searched
+- Displays a list of books you recently searched for.
+- Helps quickly access past searches.
+
+### 7. Voice Command
+- Search for books using your voice.
+- Converts spoken words into search queries.
+
+### 8. Light and Dark Mode
+- Toggle between light and dark themes.
+- Enhances visibility and personal preference.
+
 
 ## 🚀 Getting Started
 
